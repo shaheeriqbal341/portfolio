@@ -1,0 +1,365 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Source+Code+Pro&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* for all page */
+
+div.cntainer div.sidebar{
+    background-color: gray;
+    font-family: 'Boogaloo', sans-serif;
+    height: 100vh;
+    transition: transform 0.1s ease-in;
+}
+
+div.cntainer div.sidebar nav{
+    padding: 45px;
+}
+
+div.cntainer div.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+div.cntainer div.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+}
+
+div.cntainer div.sidebargo{
+    transform : translate(-443px,0px);
+    position : absolute;
+}
+
+div.cntainer div.main div.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+div.cntainer div.main div.hamburger img.ham{
+    margin-top: 10px;
+}
+div.cntainer div.main div.hamburger img.cross{
+    margin-left: 130px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Style of home page */
+
+div.cntainer{
+    display: flex;
+}
+
+div.cntainer div.main{
+    width: 100vw;
+    background-color: #fcfffe;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+div.cntainer div.main div.infocntainer{
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
+}
+
+div.cntainer div.main div.infocntainer div.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+div.cntainer div.main div.infocntainer div.devinfo div.hello{
+    font-size: 60px;
+}
+
+div.cntainer div.main div.infocntainer div.devinfo div.name{
+    font-size: 70px;
+    font-weight: initial;
+    font-family: 'Boogaloo', sans-serif;
+}
+
+div.cntainer div.main div.infocntainer div.devinfo div.about{
+    font-size: 30px;
+}
+
+div.cntainer div.main div.infocntainer div.devinfo div.moreabout{
+    font-size: 20px;
+    font-family: 'Boogaloo', sans-serif;
+}
+
+div.cntainer div.main div.infocntainer div.devinfo div.buttno{
+    margin-top: 34px;
+}
+
+div.cntainer div.main div.infocntainer div.devinfo div.buttno button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(1, 0, 3);
+    background-color: yellow;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 3px;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+div.cntainer div.main div.infocntainer div.devinfo div.buttno button:hover{
+    background-color: rgb(3, 0, 10);
+    color: yellow;
+}
+
+div.cntainer div.main div.infocntainer div.devpik img{
+    height: 75vh;
+}
+
+/* style of my intro page */
+
+
+div.cntainer div.main div.devinfo div.myintro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+div.cntainer div.main div.devinfo .myintro p{
+    font-family: 'Boogaloo', sans-serif;
+    margin: 12px;
+}
+
+div.cntainer div.main div.devinfo div.myintro div.skillcontaner{
+    margin: 12px;
+}
+
+div.cntainer div.main div.devinfo div.myintro div.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Boogaloo', sans-serif;
+    font-weight: 100;
+}
+
+div.cntainer div.main div.devinfo div.myintro div.skillitem div.one00{
+    width: 500px;
+    background-color: rgb(255, 0, 0);
+    height: 10px;
+    border: 2px solid rgb(245, 238, 238);
+}
+
+div.cntainer div.main div.devinfo div.myintro div.skillitem div.three50{
+    width: 350px;
+    background-color: green;
+    height: 10px;border: 2px solid rgb(245, 238, 238);
+}
+
+div.cntainer div.main div.devinfo div.myintro div.skillitem div.two00{
+    width: 200px;
+    background-color: yellow;
+    height: 10px;
+    border: 2px solid rgb(245, 238, 238);
+}
+
+div.cntainer div.main div.devinfo div.myintro div.skillitem div.ten{
+    width: 40px;
+    background-color: blue;
+    height: 10px;
+    border: 2px solid rgb(245, 238, 238);
+}
+
+div.cntainer div.main div.devinfo div.myintro div.skillitem div.one50{
+    width: 120px;
+    background-color: gray;
+    height: 10px;
+    border: 2px solid rgb(245, 238, 238);
+}
+
+
+/* style of services page */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+div.cntainer div.main div.infocntainer div.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,auto);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 30px;
+}
+
+div.cntainer div.main div.infocntainer div.cards-container div.devinfo div.cards{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.178);  
+    transition: .1s all ease;
+}
+div.cntainer div.main div.infocntainer div.cards-container div.devinfo div.cards:hover{
+    box-shadow: 35px 35px 35px rgba(0, 0, 0, 0.178);
+}
+div.cntainer div.main div.infocntainer div.cards-container div.devinfo div.cards div.icon i.las{
+    font-size: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(92, 92, 224);
+    border: 2px solid transparent;
+    color: white;
+}
+div.cntainer div.main div.infocntainer div.cards-container div.devinfo div.cards div.heading{
+    font-size: 30px;
+    padding: 5px 0px;
+}
+div.cntainer div.main div.infocntainer div.cards-container div.devinfo div.cards div.text{
+    font-size: 20px;
+}
+
+/* Style of blog page */
+div.cntainer div.main div.blogcontaner{
+    margin: 0 88px;
+}
+div.cntainer div.main div.blogitem{
+    font-family: 'Source Code Pro', monospace;
+}
+
+div.cntainer div.main div.blogcontaner h1{
+    font-family:'Source Code Pro', monospace;
+}
+
+div.cntainer div.main div.blogitem p{
+    font-family: 'Boogaloo', sans-serif;
+}
+
+div.cntainer div.main div.blogitem div.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+    border-radius: 22px;
+    color: rgb(1, 0, 3);
+    background-color: yellow;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+div.cntainer div.main div.blogitem div.btn-sm:hover{
+    background-color: rgb(3, 0, 10);
+    color: yellow;
+}
+
+/* Style of contact page */
+
+
+div.cntainer div.main div.contactform{
+    padding: 0 34px;
+    padding-top: 90px;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 20px;
+}
+
+div.cntainer div.main div.contactform h1{
+    font-family: 'Boogaloo', sans-serif;
+    text-align: center;
+}
+
+div.cntainer div.main div.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+div.cntainer div.main div.contactform form div input{
+    width: 26vw;
+    border-radius: 5px ;
+    margin: 6px 0 0 0 ;
+    padding: 3px; ;
+}
+
+div.cntainer div.main div.contactform form div.mb-3 div#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+    border-radius: 22px;
+    color: rgb(1, 0, 3);
+    background-color: yellow;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+.btn-sm:hover{
+    background-color: rgb(3, 0, 10);
+    color: yellow;
+}
+
+/* for media */
+ @media (max-width: 1000px) {
+   
+    div.cntainer div.main div.infocntainer div.devpik{
+      display: none;
+    }
+
+    div.cntainer div.sidebar{
+        position: absolute;
+    }
+
+    div.cntainer div.main div.infocntainer div.cards-container{
+        grid-template-columns: repeat(2 ,auto);
+        grid-gap: 0px;
+        padding: 30px;
+        top: 100px;
+    }
+
+    div.cntainer div.main div.infocntainer div.cards-container div.devinfo div.cards{
+        padding: 20px;
+        
+    }
+
+    div.cntainer div.main div.infocntainer div.cards-container div.devinfo div.cards .heading{
+        font-size: 23px;
+        font-weight: 900;
+        
+    }
+
+} 
+
+@media (min-width:1001px){
+
+    div.cntainer div.main div.devpik2{
+        display: none;
+       
+    }
+}
+
+
+
